@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$$$blogname</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        a{
+            text-decoration: none;
+            color:#10B981;
+        }
+        header, footer{
+            display:flex;
+            justify-content:left;
+            align-items: center;
+            background-color: white;
+            height:100px;
+            -webkit-box-shadow: 1px 2px 17px 0px #656566; 
+            box-shadow: 1px 2px 17px -7px #656566;
+            margin-bottom: 10px;
+        }
+        header p{
+            margin-left: 100px;
+            font-size: 30px;
+        }
+        header a{
+            text-decoration: none;
+            color:currentColor;
+        }
+        .content{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            padding-right: 10%;
+            padding-left: 10%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: #F3F4F6;
+            min-height: 250px;
+        }
+
+        .article{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+            margin-left: 25px;
+            margin-right: 25px;
+            margin-bottom: 10px;
+            width: 300px;
+            height: 200px;
+            border: 2px solid black;
+            color: black;
+        }
+        .article:hover{
+            border: 2px solid #10B981;
+            color: #10B981;
+        }
+        .title{
+            margin-left:5%;
+            margin-right:5%;
+            margin-top:13%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            text-align: center;
+            width:100%;
+            height:60%;
+        }
+        .date{
+            display:flex;
+            justify-content: center;
+            width:100%;
+            height:10%;
+        }
+        footer{
+            box-shadow: none;
+            height: 50px;
+            justify-content: center;
+        }
+        footer p{
+            color: #656566;
+        }
+        @media screen and (max-width: 580px){
+            header{
+                justify-content: center;
+            }
+            header p{
+                margin-left: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="./index.html"><p>$$$blogname</p></a>
+    </header>
+    <div class="content">
+        $$$0        
+    </div>
+    <footer>
+        <p>Created by $$$author</p>
+    </footer>
+</body>
+</html>
